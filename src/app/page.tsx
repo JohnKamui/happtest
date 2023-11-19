@@ -13,7 +13,7 @@ export default async function Home() {
 
   return (
     <>
-      <h1 className='font-bold text-3xl md:text-4xl'>Your feed</h1>
+      <h1 className='font-bold text-3xl md:text-4xl'>Seu Feed</h1>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-y-4 md:gap-x-4 py-6'>
         {/* @ts-expect-error server component */}
         {session ? <CustomFeed /> : <GeneralFeed />}
@@ -29,8 +29,7 @@ export default async function Home() {
           <dl className='-my-3 divide-y divide-gray-100 px-6 py-4 text-sm leading-6'>
             <div className='flex justify-between gap-x-4 py-3'>
               <p className='text-zinc-500'>
-                Your personal Breadit frontpage. Come here to check in with your
-                favorite communities.
+                Aqui há os memes. Crie Ou Entre em Algumas das Comunidades.
               </p>
             </div>
 
@@ -39,7 +38,7 @@ export default async function Home() {
                 className: 'w-full mt-4 mb-6',
               })}
               href={`/r/create`}>
-              Create Community
+              Criar Comunidade
             </Link>
           </dl>
         </div>
