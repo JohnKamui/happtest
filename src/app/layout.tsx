@@ -9,7 +9,7 @@ import '@/styles/globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Happ',
+  title: 'NuKe',
   description: 'A Meme Website Without SoftPorn.',
 }
 
