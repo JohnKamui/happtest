@@ -57,7 +57,7 @@
 
 .dark .cdx-notify__cross::after,
 .dark .cdx-notify__cross::before {
-  background: white;
+  background: black;
 }
 
 .codex-editor__redactor {
