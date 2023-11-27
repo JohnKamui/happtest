@@ -1,6 +1,6 @@
 {
-  "name": "reddit-clone",
-  "version": "0.1.0",
+  "name": "nuke",
+  "version": "1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
